@@ -1,0 +1,45 @@
+.header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  height: 10rem;
+  width: 10rem;
+}
+
+.label {
+  color: white;
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem 4rem;
+  margin-top: 1rem;
+}
+
+.inputContainer {
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 10rem;
+}
+
+.inputBox {
+  background-color: transparent;
+  border: 1px solid #76c0ae;
+  border-radius: 0.25rem;
+  color: #c2e9e0;
+  font-size: 1rem;
+  padding: 0.5rem;
+  width: 10rem;
+
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
